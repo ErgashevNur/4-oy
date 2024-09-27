@@ -245,3 +245,168 @@ if (c > 0) {
 }
 
 console.log("Musbat sonlar: " + musbatlar);*/
+
+// If 5
+/*let a = prompt("Birinchi sonni kiriting");
+let b = prompt("Ikkinchi sonni kiriting");
+let c = prompt("Uchinchi sonni kiriting");
+let juft = [];
+let toq = [];
+
+if (a % 2 == 0) {
+  juft++;
+} else {
+  toq++;
+}
+
+if (b % 2 == 0) {
+  juft++;
+} else {
+  toq++;
+}
+if (c % 2 == 0) {
+  juft++;
+} else {
+  toq++;
+}
+console.log(juft, "-ta juft son bor");
+console.log(toq, "-ta toq son bor");
+*/
+
+// If 6
+/*let a = prompt("First number");
+let b = prompt("Second number");
+
+if (a > b) {
+  console.log(a, "soni kotta");
+} else if (a < b) {
+  console.log(b, "soni kotta");
+} else {
+  console.log("Ikkala son ham teng");
+}*/
+
+// If 7
+/*let a = prompt("First number");
+let b = prompt("Second number");
+
+if (a < b) {
+  console.log("tartib raqami ", a);
+} else if (a > b) {
+  console.log("tartib raqami", b);
+}*/
+
+// If 8
+/*let a = prompt("First number");
+let b = prompt("Second number");
+
+if (a > b) {
+  console.log(a, "katta son", b, "kichik son");
+} else if (a < b) {
+  console.log(b, "katta son", a, "kichik son");
+} else {
+  console.log("ikkala son ham teng");
+}*/
+
+// If 9
+/*let a = prompt("First number");
+let b = prompt("Second number");
+
+if (a < b) {
+  console.log(a, "kichik son", b, "kotta son");
+} else if (a > b) {
+  console.log(b, "kichik son", a, "kotta son");
+} else {
+  console.log("ikkala son ham teng");
+}*/
+
+// If 10
+/*let a = prompt("Son kiriting");
+a = parseFloat(a);
+let b = prompt("Ya'na son kiriting");
+b = parseFloat(b);
+
+if (a == b) {
+  console.log("0 ni o'zlashitirdi");
+} else {
+  console.log(a + b, "natija");
+}*/
+
+// If 11
+/*let a = prompt("Son kiriting");
+let b = prompt("Ya'na son kiriting");
+
+if (a == b) {
+  console.log("0 ni o'zlashitirdi");
+} else if (a > b) {
+  console.log(a, "natija");
+} else {
+  console.log(b, "natija");
+}*/
+
+// If 12
+/*let a = prompt("Son kiriting");
+let b = prompt("Son kiriting");
+let c = prompt("Son kiriting");
+
+if (a < b && a < c) {
+  console.log(a, "shu son kichkina");
+} else if (b < a && b < c) {
+  console.log(b, "shu son kichkina");
+} else if (c < a && c < b) {
+  console.log(c, "shu son kichik");
+}*/
+
+// If 13
+/*let a = prompt("Son kiriting");
+let b = prompt("Son kiriting");
+let c = prompt("Son kiriting");
+
+if ((a < b && b < c) || (c < b && b < a)) {
+  console.log(b, "shu son o'rtacha");
+} else if ((b < a && a < c) || (c < a && a < b)) {
+  console.log(a, "shu son o'rtacha");
+} else if ((b < c && c > a) || (a > c && c > b)) {
+  console.log(c, "shu son o'rtacha");
+}*/
+
+// // If 14
+// let a = prompt("Son kiriting");
+// let b = prompt("Son kiriting");
+// let c = prompt("Son kiriting");
+
+// if (a < b && b < c) {
+//   console.log(a, "kichik son", c, "katta son");
+// } else if (c < b && b < a) {
+//   console.log(c, "kichik son", a, "katta son");
+// } else if (b < a && a < c) {
+//   console.log(b, "kichik son", c, "katta son");
+// } else if (c < a && a < b) {
+//   c, "kichik son", b, "katta son";
+// } else if (b < c && c > a) {
+//   console.log(b, "kichik son", a, "katta son");
+// } else if (a > c && c > b) {
+//   console.log(a, "kichik son", b, "katta son");
+// }
+
+let a = prompt("son kirit -- 1");
+let b = prompt("son kirit -- 2");
+let c = prompt("son kirit -- 3");
+
+let kichig = a;
+if (b < kichig) {
+  kichig = b;
+} else if (b > kichig);{
+kichig = kichig;}
+if (c < kichig) {
+  kichik = c;
+} else if 
+
+let kotta = a;
+if (b > kotta) {
+  kotta = b;
+}
+if (c > kotta) {
+  kotta = c;
+}
+
+console.log("Eng kichik son: " + kichig, "Eng katta son: " + kotta);
